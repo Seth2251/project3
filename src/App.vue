@@ -27,7 +27,7 @@ export default {
       }
 
       if (this.countdown) {
-        clearInterval(this.countdown); // Stop any previous timer if running
+        clearInterval(this.countdown); 
       }
 
       this.countdown = setInterval(() => {
